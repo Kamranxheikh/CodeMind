@@ -7,8 +7,8 @@ import { checklistItems } from "../constants";
 
 const Workflow = () => {
   return (
-    <div className="mt-20">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide min-h-[800px]">
+    <div className="mt-10">
+      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-9 tracking-wide pb-16 min-h[800px]">
         Accelerate your{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           coding workflow.
@@ -18,7 +18,7 @@ const Workflow = () => {
         <div className="p-2 w-full lg:w-1/2">
           <img src={codeImg} alt="Coding" />
         </div>
-        <div className="pt-12 w-full lg:w-1/2">
+        <div className="pt-4 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
             <div key={index} className="flex mb-12">
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
