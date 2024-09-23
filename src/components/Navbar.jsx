@@ -17,7 +17,7 @@ const Navbar = () => {
               <div className='container px-4 mx-auto relative text-sm'>
                 <div className='flex  justify-between items-center'>
                     <div className="flex item-center  flex-shrink-0">
-                    <img className='h-10 w-10 mr-2 ' src="/src/assets/logo.png" alt="" />
+                    <img className='h-10 w-10 mr-2 ' src="/public/asset/logo.png" alt="" />
                     <span className='text-xl tracking-tight mt-2'>CodeMinds</span>
                     </div>
                     <ul className='hidden lg:flex ml-14 space-x-12 '>
@@ -33,7 +33,8 @@ const Navbar = () => {
                     </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={toggleNavbar} className='flex items-center justify-center w-10 h-10 rounded-full bg-neutral-700/80 hover:bg-neutral-700/90'>
-                            {mobileDrawerOpen? <X  /> : <Menu  />}
+                        {mobileDrawerOpen? <X  /> : <Menu  />}
+
                         </button>
                     </div>
                 </div>
